@@ -9,6 +9,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
   <!-- Tailwind CSS file -->
   <link rel="stylesheet" href="index.css">
+  <!-- Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Social proof section</title>
 
@@ -25,31 +29,132 @@
   </style>
 </head>
 
-<body>
-  10,000+ of our users love our products.
+<body class="p-4">
+  <main>
 
-  We only provide great products combined with excellent customer service.
-  See what our satisfied customers are saying about our services.
+    <section class="bg-[url('./images/bg-pattern-top-mobile.svg')]">
+      <h1 class="text-3xl">10,000+ of our users love our products.</h1>
+      <p>We only provide great products combined with excellent customer service.
+        See what our satisfied customers are saying about our services.</p>
+    </section>
 
-  Rated 5 Stars in Reviews
-  Rated 5 Stars in Report Guru
-  Rated 5 Stars in BestTech
+    <section>
+      <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="star" viewBox="0 0 17 16">
+          <path
+            d="M16.539 6.097a0.3 0.3 0 0 0 -0.24 -0.202l-5.36 -0.779L8.542 0.26a0.296 0.296 0 0 0 -0.53 0L5.613 5.117l-5.36 0.779a0.297 0.297 0 0 0 -0.165 0.505l3.88 3.78 -0.917 5.34a0.297 0.297 0 0 0 0.43 0.312l4.795 -2.52 4.794 2.52a0.296 0.296 0 0 0 0.43 -0.313l-0.916 -5.338 3.88 -3.782c0.08 -0.08 0.11 -0.197 0.075 -0.304z"
+            fill="#EF9546" fill-rule="nonzero" />
+        </symbol>
+      </svg>
+      <div>
+        <picture>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+        </picture>
+        <p>Rated 5 Stars in Reviews</p>
+      </div>
+      <div>
+        <picture>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+        </picture>
+        <p>Rated 5 Stars in Report Guru</p>
+      </div>
+      <div>
+        <picture>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+          <svg width="17" height="16">
+            <use href="#star" />
+          </svg>
+        </picture>
+        <p>Rated 5 Stars in BestTech</p>
+      </div>
+    </section>
 
-  Colton Smith
-  Verified Buyer
-  "We needed the same printed design as the one we had ordered a week prior.
-  Not only did they find the original order, but we also received it in time.
-  Excellent!"
+    <section>
+      <section>
+        <div>
+          <img src="./images/image-colton.jpg" alt="A headshot of Colton Smith">
+          <h2>Colton Smith</h2>
+          <span>Verified Buyer</span>
+        </div>
+        <p><q>We needed the same printed design as the one we had ordered a week prior.
+            Not only did they find the original order, but we also received it in time.
+            Excellent!</q></p>
+      </section>
 
-  Irene Roberts
-  Verified Buyer
-  "Customer service is always excellent and very quick turn around. Completely
-  delighted with the simplicity of the purchase and the speed of delivery."
+      <section>
+        <div>
+          <img src="./images/image-irene.jpg" alt="A headshot of Irene Roberts">
+          <h2>Irene Roberts</h2>
+          <span>Verified Buyer</span>
+        </div>
+        <p><q>Customer service is always excellent and very quick turn around. Completely
+            delighted with the simplicity of the purchase and the speed of delivery.</q></p>
+      </section>
 
-  Anne Wallace
-  Verified Buyer
-  "Put an order with this company and can only praise them for the very high
-  standard. Will definitely use them again and recommend them to everyone!"
+      <section>
+        <div>
+          <img src="./images/image-anne.jpg" alt="A headshot of Anne Wallace">
+          <h2>Anne Wallace</h2>
+          <span>Verified Buyer</span>
+        </div>
+        <p><q>Put an order with this company and can only praise them for the very high
+            standard. Will definitely use them again and recommend them to everyone!</q></p>
+      </section>
+    </section>
+
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!--
   <footer>
