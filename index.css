@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    background: url("./images/bg-pattern-top-mobile.svg"),
+      url("./images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    background-position:
+      left top,
+      right 0 bottom -300px;
+  }
+
+  @media (min-width: 768px) {
+    body {
+      background: url("./images/bg-pattern-top-desktop.svg"),
+        url("./images/bg-pattern-bottom-desktop.svg");
+      background-repeat: no-repeat, no-repeat;
+      background-size: contain, cover;
+      background-position:
+        left -500px top 0,
+        right 0 bottom -250px;
+    }
+  }
+}
